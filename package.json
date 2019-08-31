@@ -1,0 +1,27 @@
+{
+  "name": "cardtrader",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist/; webpack --config webpack.config.js",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "jquery": "^3.4.1",
+    "morgan": "~1.9.0",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
